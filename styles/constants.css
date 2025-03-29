@@ -1,0 +1,10 @@
+:root {
+    --lime-transparent-bg1: #8FC60042;
+    --main_heavy_color: var(--lime-12);
+    --main_middle_color: var(--lime-11);
+    --main_light_color: var(--lime-2);
+
+    --max-width: 1440px;
+
+    --transition-time: 0.3s;
+}

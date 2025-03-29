@@ -1,0 +1,3 @@
+.limitedFlex {
+    max-width: var(--max-width);
+}

@@ -1,0 +1,99 @@
+.navWrapper {
+    z-index: 1;
+    background-color: var(--lime-transparent-bg1);
+    transition: all var(--transition-time) ease-in-out;
+}
+
+.navWrapperScrolled {
+    z-index: 1;
+    background-color: var(--main_heavy_color);
+    transition: all var(--transition-time) ease-in-out;
+    max-height: 74px;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    max-width: var(--max-width);
+    flex-direction: column;
+    padding: 32px;
+    transition: all var(--transition-time) ease-in-out;
+}
+
+.navbarScrolled {
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 12px 24px;
+    transition: all var(--transition-time) ease-in-out;
+}
+
+.navbarScrolledOpened {
+    height: auto;
+    max-height: 80vh;
+    transition: all var(--transition-time) ease-in-out;
+    overflow: hidden;
+}
+
+.navGroup {
+    width: 100%;
+}
+
+.navGroup .link {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main_light_color);
+    text-decoration: none;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: all var(--transition-time) ease-in-out;
+}
+
+.link:hover {
+    color: var(--main_middle_color);
+}
+
+.logoImg {
+    width: 100px;
+    height: auto;
+    transition: all var(--transition-time) ease-in-out;
+}
+
+.logoImgScrolled {
+    width: 50px;
+    height: auto;
+    transition: all var(--transition-time) ease-in-out;
+    cursor: pointer;
+}
+
+.navGroup .activeLink {
+    color: var(--main_middle_color);
+}
+
+.basketButton {
+    cursor: pointer;
+    position: relative;
+}
+
+.burgerMenuIco {
+    cursor: pointer;
+}
+
+.basketButtonQuantityPimple {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -8px;
+    right: -4px;
+    background-color: var(--main_middle_color);
+    color: var(--main_light_color);
+    border-radius: 50%;
+    padding: 4px ;
+}
+
+.basketButtonNumber {
+    color: var(--main_light_color);
+}
+
+
+
+

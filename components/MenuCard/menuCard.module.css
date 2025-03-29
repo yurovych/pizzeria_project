@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid var(--main_heavy_color);
+    border-radius: 0 24px 0 24px;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    color: var(--main_heavy_color);
+}
+
+.ingredients {
+    color: var(--main_middle_color);
+}
+
+.price {
+    color: var(--main_heavy_color);
+}
+
+.buttonCart {
+    width: 100%;
+    flex-shrink: 1;
+}
+

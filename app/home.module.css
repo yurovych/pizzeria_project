@@ -4,7 +4,6 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
 }
 
 .header {
@@ -12,8 +11,11 @@
     height: 100%;
     position: relative;
     justify-content: flex-end;
-    max-width: var(--max-width);
     padding: 80px 24px;
+
+    @media (max-width: 1023px) {
+        padding: 32px 24px;
+    }
 }
 
 .title {
@@ -27,46 +29,14 @@
 
 .button {
     width: 30%;
-}
-
-.menuPresentstionSection {
-    display: flex;
-    justify-content: center;
+    min-width: 150px;
 }
 
 .menuPresentation {
     width: 100%;
-    max-width: var(--max-width);
 }
 
-.footerWrapper {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/footer_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-}
 
-.footer {
-    width: 100%;
-    max-width: var(--max-width);
-    color: var(--main_light_color);
-}
-
-.footerTitle {
-    color: var(--main_middle_color);
-}
-
-.footerInfo {
-    color: var(--main_light_color);
-    text-decoration: none;
-}
-
-.footerLink :hover {
-    color: var(--main_middle_color);
-}
 
 
 

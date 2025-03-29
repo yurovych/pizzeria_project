@@ -1,0 +1,12 @@
+.basketComponent {
+    background-color: red;
+}
+
+.listBlock {
+}
+
+.summaryBlock {
+    background-color: yellow;
+    flex-shrink: 2;
+
+}
