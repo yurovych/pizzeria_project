@@ -1,0 +1,8 @@
+.basketCard {
+    border-bottom: 1px solid black;
+    padding: 24px;
+}
+
+.deletePositionIco {
+    cursor: pointer;
+}

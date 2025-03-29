@@ -1,0 +1,39 @@
+@import 'constants.css';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    scroll-behavior: smooth
+}
+
+:root .button {
+    color: var(--main_heavy_color);
+    background-color: var(--main_middle_color);
+    cursor: pointer;
+    padding: 0 12px;
+    text-wrap: nowrap;
+}
+
+:root .icon {
+    height: 24px;
+    width: 24px;
+}
+
+.headerSection {
+    background-image: url('/images/home_top_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+}
+
+.headerTitle {
+    color: var(--main_light_color);
+    padding: 0 24px;
+}

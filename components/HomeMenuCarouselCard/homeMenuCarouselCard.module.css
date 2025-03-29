@@ -1,0 +1,13 @@
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    color: var(--lime-12);
+}
+
+.desctiption {
+    color: var(--lime-11);
+    border-left: 5px solid var(--lime-12);
+}

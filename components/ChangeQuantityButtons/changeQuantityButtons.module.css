@@ -1,0 +1,6 @@
+.iconButton {
+    border: 1px solid var(--main_middle_color);
+    background-color: var(--main_light_color);
+    color: var(--main_heavy_color);
+}
+
